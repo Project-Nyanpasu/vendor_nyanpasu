@@ -14,6 +14,10 @@ PRODUCT_PACKAGES += \
 # Inherit from common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
 
+# Media
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    media.recorder.show_manufacturer_and_model=true
+
 # Only logging privapp-permissions whitelist
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
