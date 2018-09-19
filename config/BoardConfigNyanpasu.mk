@@ -6,3 +6,6 @@
 
 # Kernel
 include vendor/nyanpasu/config/BoardConfigKernel.mk
+
+# Soong
+include vendor/nyanpasu/config/BoardConfigSoong.mk
