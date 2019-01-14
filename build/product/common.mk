@@ -43,6 +43,9 @@ $(call inherit-product, vendor/nyanpasu/build/product/packages.mk)
 # Properties
 $(call inherit-product, vendor/nyanpasu/build/product/properties.mk)
 
+# Sepolicy
+$(call inherit-product, vendor/nyanpasu/sepolicy/sepolicy.mk)
+
 # Snapdragon Clang
 $(call inherit-product, vendor/nyanpasu/sdclang/sdclang.mk)
 
