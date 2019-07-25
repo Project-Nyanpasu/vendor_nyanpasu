@@ -28,3 +28,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
+
+# Enforce privapp-permissions whitelist
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.control_privapp_permissions=enforce
