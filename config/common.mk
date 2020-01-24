@@ -8,6 +8,11 @@
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.acsa=true
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Google Play services configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.error.receiver.system.apps=com.google.android.gms \
