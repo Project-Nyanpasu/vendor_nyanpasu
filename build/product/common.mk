@@ -4,6 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/nyanpasu/build/config/config.fs
 
