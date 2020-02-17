@@ -15,7 +15,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/qcom/common/common.mk)
 
 # Only logging privapp-permissions whitelist
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
 # Override undesired Google defaults
