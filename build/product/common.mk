@@ -23,6 +23,9 @@ $(call inherit-product, device/qcom/common/common.mk)
 # Key
 $(call inherit-product-if-exists, vendor/mashiro/keys.mk)
 
+# Pckages
+$(call inherit-product, vendor/nyanpasu/build/product/packages.mk)
+
 # Properties
 $(call inherit-product, vendor/nyanpasu/build/product/properties.mk)
 
