@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Move Wi-Fi modules to vendor
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # Inherit
 # Common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
