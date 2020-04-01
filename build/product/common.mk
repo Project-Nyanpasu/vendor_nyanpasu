@@ -5,6 +5,8 @@
 #
 
 # Inherit
+# Common Qualcomm device
+$(call inherit-product, device/qcom/common/common.mk)
 
 # Key
 $(call inherit-product-if-exists, vendor/mashiro/keys.mk)
