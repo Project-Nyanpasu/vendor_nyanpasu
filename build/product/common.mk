@@ -26,6 +26,9 @@ $(call inherit-product, vendor/gapps/config.mk)
 # Key
 $(call inherit-product-if-exists, vendor/mashiro/keys.mk)
 
+# Overlays
+$(call inherit-product, vendor/nyanpasu/build/product/overlays.mk)
+
 # Pckages
 $(call inherit-product, vendor/nyanpasu/build/product/packages.mk)
 
