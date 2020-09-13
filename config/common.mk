@@ -22,6 +22,16 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
+# Overlay
+PRODUCT_PACKAGES += \
+    NyanpasuFrameworksOverlay \
+    NyanpasuLauncher3Overlay \
+    NyanpasuNetworkStackOverlay \
+    NyanpasuSettingsOverlay \
+    NyanpasuSettingsProviderOverlay \
+    NyanpasuSimpleDeviceConfigOverlay \
+    NyanpasuSystemUIOverlay
+
 # Override undesired Google defaults
 PRODUCT_PRODUCT_PROPERTIES += \
     keyguard.no_require_sim=true \
