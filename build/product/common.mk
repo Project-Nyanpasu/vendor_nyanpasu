@@ -11,5 +11,8 @@ $(call inherit-product, device/qcom/common/common.mk)
 # Key
 $(call inherit-product-if-exists, vendor/mashiro/keys.mk)
 
+# Snapdragon Clang
+$(call inherit-product, vendor/nyanpasu/sdclang/sdclang.mk)
+
 # Version
 $(call inherit-product, vendor/nyanpasu/build/product/version.mk)
