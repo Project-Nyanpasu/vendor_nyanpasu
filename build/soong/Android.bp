@@ -1,12 +1,4 @@
 bootstrap_go_package {
-    name: "soong-nyanpasu",
-    pkgPath: "nyanpasu/soong/android",
-    srcs: [
-        "android/variable.go",
-    ],
-}
-
-bootstrap_go_package {
     name: "soong-nyanpasu-generator",
     pkgPath: "nyanpasu/soong/generator",
     deps: [
