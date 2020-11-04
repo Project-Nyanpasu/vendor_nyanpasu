@@ -15,4 +15,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LatinIME \
     Launcher3QuickStep \
+    SimpleDeviceConfig \
     ThemePicker
