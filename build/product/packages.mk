@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     WebViewGoogle \
     Wellbeing
 
+# Require
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
