@@ -23,6 +23,17 @@ PRODUCT_PACKAGES += \
     procmem \
     curl \
 
+# LineageOS CLI tools
+PRODUCT_PACKAGES += \
+    7z \
+    bash \
+    htop \
+    nano \
+    pigz \
+    vim \
+    zip \
+    rsync \
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
