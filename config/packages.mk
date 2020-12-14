@@ -4,6 +4,25 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# AOSP userdebug/eng CLI tools
+PRODUCT_PACKAGES += \
+    arping \
+    gdbserver \
+    idlcli \
+    iotop \
+    iperf3 \
+    iw \
+    procrank \
+    showmap \
+    sqlite3 \
+    ss \
+    strace \
+    tracepath \
+    tracepath6 \
+    traceroute6 \
+    procmem \
+    curl \
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
