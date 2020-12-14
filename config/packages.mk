@@ -34,6 +34,16 @@ PRODUCT_PACKAGES += \
     zip \
     rsync \
 
+# AOSP OpenSSH
+PRODUCT_PACKAGES += \
+    scp \
+    sftp \
+    ssh \
+    sshd \
+    sshd_config \
+    ssh-keygen \
+    start-ssh \
+
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.ntfs \
