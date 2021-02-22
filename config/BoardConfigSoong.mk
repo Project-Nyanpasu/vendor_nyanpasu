@@ -36,6 +36,7 @@ SOONG_CONFIG_nyanpasuGlobalVars += \
 
 SOONG_CONFIG_NAMESPACES += nyanpasuQcomVars
 SOONG_CONFIG_nyanpasuQcomVars += \
+    legacy_hw_disk_encryption \
     supports_extended_compress_format \
     supports_hw_fde \
     supports_hw_fde_perf \
@@ -48,6 +49,7 @@ SOONG_CONFIG_nyanpasuQcomVars += \
 endif
 
 # Soong bool variables
+SOONG_CONFIG_nyanpasuQcomVars_legacy_hw_disk_encryption := $(TARGET_LEGACY_HW_DISK_ENCRYPTION)
 SOONG_CONFIG_nyanpasuQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_nyanpasuQcomVars_supports_hw_fde := $(TARGET_HW_DISK_ENCRYPTION)
 SOONG_CONFIG_nyanpasuQcomVars_supports_hw_fde_perf := $(TARGET_HW_DISK_ENCRYPTION_PERF)
