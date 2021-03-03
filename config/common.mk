@@ -23,6 +23,10 @@ ifeq ($(NYANPASU_QCOM_COMMON), true)
 $(call inherit-product, device/qcom/common/common.mk)
 endif
 
+# IORap app launch prefetching using Perfetto traces and madvise
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true
+
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
