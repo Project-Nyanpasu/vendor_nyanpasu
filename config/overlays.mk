@@ -21,4 +21,5 @@ PRODUCT_PACKAGES += \
     NyanpasuSystemUIOverlay \
     NyanpasuTelecommOverlay \
     NyanpasuThemePickerOverlay \
-    NyanpasuTelephonyOverlay
+    NyanpasuTelephonyOverlay \
+    NavigationBarNoHintOverlay
