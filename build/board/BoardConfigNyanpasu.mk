@@ -3,3 +3,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Kernel
+include vendor/nyanpasu/build/board/BoardConfigKernel.mk
