@@ -7,6 +7,11 @@
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/nyanpasu/build/config/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/nyanpasu/build/config/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
+
 # Inherit
 # Common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
