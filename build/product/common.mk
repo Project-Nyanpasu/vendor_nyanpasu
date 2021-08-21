@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/nyanpasu/build/config/config.fs
+
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
