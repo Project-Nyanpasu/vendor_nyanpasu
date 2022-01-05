@@ -11,3 +11,7 @@ $(call inherit-product, vendor/nyanpasu/config/common.mk)
 PRODUCT_PACKAGES += \
     messaging \
     Stk
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/nyanpasu/prebuilt/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
