@@ -5,7 +5,9 @@
 #
 
 # Inherit from common Qualcomm device
+ifeq ($(NYANPASU_QCOM_COMMON), true)
 $(call inherit-product, device/qcom/common/common.mk)
+endif
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
