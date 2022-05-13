@@ -70,6 +70,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
+# Bootanimation
+$(call inherit-product, vendor/nyanpasu/config/bootanimation.mk)
+
 # Gapps
 $(call inherit-product, vendor/gapps/config.mk)
 
