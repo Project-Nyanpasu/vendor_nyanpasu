@@ -20,4 +20,5 @@ PRODUCT_PACKAGES += \
     NyanpasuSimpleDeviceConfigOverlay \
     NyanpasuSystemUIOverlay \
     NyanpasuTelecommOverlay \
+    NyanpasuThemePickerOverlay \
     NyanpasuTelephonyOverlay
