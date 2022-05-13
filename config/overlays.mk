@@ -4,6 +4,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Gapps overlays
+PRODUCT_PACKAGES += \
+    GmsConfigOverlay \
+    TelecommConfigOverlay \
+    PixelSetupWizardOverlay
+
 # Overlay
 PRODUCT_PACKAGES += \
     NyanpasuFrameworksOverlay \
@@ -12,4 +18,6 @@ PRODUCT_PACKAGES += \
     NyanpasuSettingsOverlay \
     NyanpasuSettingsProviderOverlay \
     NyanpasuSimpleDeviceConfigOverlay \
-    NyanpasuSystemUIOverlay
+    NyanpasuSystemUIOverlay \
+    NyanpasuTelecommOverlay \
+    NyanpasuTelephonyOverlay
