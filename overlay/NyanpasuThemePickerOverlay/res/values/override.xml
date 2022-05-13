@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The Project Nyanpasu
+
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="themes_stub_package" translatable="false">moe.reallysnow.customization</string>
+</resources>
