@@ -79,5 +79,8 @@ $(call inherit-product, vendor/nyanpasu/config/packages.mk)
 # Overlays
 $(call inherit-product, vendor/nyanpasu/config/overlays.mk)
 
+# Sound
+$(call inherit-product, vendor/nyanpasu/config/sounds.mk)
+
 # Version
 $(call inherit-product, vendor/nyanpasu/config/version.mk)
