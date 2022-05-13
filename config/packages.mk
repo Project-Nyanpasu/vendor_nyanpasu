@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     SearchSelector \
     SetupWizard \
+    SoundPickerPrebuilt \
     talkback \
     TrichromeLibrary \
     Velvet \
