@@ -88,5 +88,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LatinIME \
     Launcher3QuickStep \
+    NyanpasuThemesStub \
     SimpleDeviceConfig \
     ThemePicker
