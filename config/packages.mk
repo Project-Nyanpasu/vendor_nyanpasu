@@ -86,6 +86,7 @@ PRODUCT_PACKAGES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    AudioFX \
     LatinIME \
     Launcher3QuickStep \
     NyanpasuThemesStub \
