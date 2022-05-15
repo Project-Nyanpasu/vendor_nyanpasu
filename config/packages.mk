@@ -93,6 +93,12 @@ PRODUCT_PACKAGES += \
     WebViewGoogle \
     Wellbeing
 
+# Now Playing
+ifeq ($(NYANPASU_NOWPLAY), true)
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+endif
+
 # Required packages
 PRODUCT_PACKAGES += \
     AudioFX \
