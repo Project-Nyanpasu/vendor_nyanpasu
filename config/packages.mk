@@ -60,6 +60,12 @@ PRODUCT_PACKAGES += \
     GoogleCameraGO
 endif
 
+# Elmyra
+ifeq ($(filter walleye taimen blueline crosshatch bonito sargo coral flame sunfish bramble barbet redfin oriole raven,$(TARGET_DEVICE)),)
+PRODUCT_PACKAGES += \
+    ElmyraService
+endif
+
 # Gapps
 PRODUCT_PACKAGES += \
     com.google.android.dialer.support \
