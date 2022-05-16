@@ -16,9 +16,4 @@
 
     <!-- Backup -->
     <string name="def_backup_transport" translatable="false">com.google.android.gms/.backup.BackupTransportService</string>
-
-    <!-- Disable some sound effects -->
-    <integer name="def_lockscreen_sounds_enabled">0</integer>
-    <bool name="def_dtmf_tones_enabled">false</bool>
-    <bool name="def_sound_effects_enabled">false</bool>
 </resources>
