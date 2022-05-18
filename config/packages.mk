@@ -121,5 +121,6 @@ PRODUCT_PACKAGES += \
     LatinIME \
     Launcher3QuickStep \
     NyanpasuThemesStub \
+    NyanpasuWallpaperStub \
     SimpleDeviceConfig \
     ThemePicker

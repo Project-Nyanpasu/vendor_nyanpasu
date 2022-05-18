@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright (C) 2022 Project Kaleidoscope
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<wallpapers>
+    <category id="acg" title="@string/acg_wallpaper">
+        <static-wallpaper
+            id="acg_1"
+            src="@drawable/acg_1"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_2"
+            src="@drawable/acg_2"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_3"
+            src="@drawable/acg_3"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_4"
+            src="@drawable/acg_4"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_5"
+            src="@drawable/acg_5"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_6"
+            src="@drawable/acg_6"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_7"
+            src="@drawable/acg_7"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_8"
+            src="@drawable/acg_8"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_9"
+            src="@drawable/acg_9"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_10"
+            src="@drawable/acg_10"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_11"
+            src="@drawable/acg_11"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_12"
+            src="@drawable/acg_12"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_13"
+            src="@drawable/acg_13"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_14"
+            src="@drawable/acg_14"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_15"
+            src="@drawable/acg_15"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_16"
+            src="@drawable/acg_16"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_17"
+            src="@drawable/acg_17"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_18"
+            src="@drawable/acg_18"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_19"
+            src="@drawable/acg_19"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_20"
+            src="@drawable/acg_20"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_21"
+            src="@drawable/acg_21"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_22"
+            src="@drawable/acg_22"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_23"
+            src="@drawable/acg_23"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_24"
+            src="@drawable/acg_24"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_25"
+            src="@drawable/acg_25"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_26"
+            src="@drawable/acg_26"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_27"
+            src="@drawable/acg_27"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_28"
+            src="@drawable/acg_28"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_29"
+            src="@drawable/acg_29"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_30"
+            src="@drawable/acg_30"
+            title="@string/acg_wallpaper"/>
+
+        <static-wallpaper
+            id="acg_31"
+            src="@drawable/acg_31"
+            title="@string/acg_wallpaper"/>
+    </category>
+</wallpapers>
