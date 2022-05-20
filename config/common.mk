@@ -87,6 +87,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Bootanimation
 $(call inherit-product, vendor/nyanpasu/config/bootanimation.mk)
 
+# Fonts
+$(call inherit-product, vendor/nyanpasu/config/fonts.mk)
+
 # Gapps
 $(call inherit-product, vendor/gapps/config.mk)
 
