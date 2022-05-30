@@ -7,7 +7,8 @@
 # google-sans family
 PRODUCT_PACKAGES += \
     GoogleSans-Italic.ttf \
-    GoogleSans-Regular.ttf
+    GoogleSans-Regular.ttf \
+    Inter-VF.ttf
 
 PRODUCT_COPY_FILES += \
     vendor/nyanpasu/theme/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
@@ -15,4 +16,5 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
-    FontGoogleSansLatoOverlay
+    FontGoogleSansLatoOverlay \
+    FontInterOverlay
