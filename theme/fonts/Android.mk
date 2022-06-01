@@ -36,7 +36,8 @@ endef
 font_src_files := \
     GoogleSans-Italic.ttf \
     GoogleSans-Regular.ttf \
-    Inter-VF.ttf
+    Inter-VF.ttf \
+    OppoSans-En-Regular.ttf
 
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
