@@ -20,4 +20,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.nyanpasu.version.codename=$(NYANPASU_CODENAME) \
-    ro.nyanpasu.build.variant=$(NYANPASU_BUILD_VARIANT)
+    ro.nyanpasu.build.variant=$(NYANPASU_BUILD_VARIANT) \
+    ro.nyanpasu.device=$(NYANPASU_DEVICE)
