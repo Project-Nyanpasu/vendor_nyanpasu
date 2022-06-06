@@ -9,6 +9,9 @@ NYANPASU_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 
 ifeq ($(NYANPASU_RELEASE), true)
   NYANPASU_BUILD_VARIANT := release
+
+  PRODUCT_PACKAGES += \
+      Updater
 else
   NYANPASU_BUILD_VARIANT := experimental
 endif
