@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Data roaming
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.com.android.dataroaming=false
+
 # Inherit common Kaleidoscope stuff
 $(call inherit-product, vendor/nyanpasu/config/common.mk)
 
