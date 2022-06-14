@@ -11,3 +11,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nyanpasu/theme/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Overlay
+PRODUCT_PACKAGES += \
+    FontGoogleSansOverlay \
+    FontGoogleSansLatoOverlay
