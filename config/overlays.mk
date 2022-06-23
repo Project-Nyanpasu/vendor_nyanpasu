@@ -22,4 +22,5 @@ PRODUCT_PACKAGES += \
     NyanpasuTelecommOverlay \
     NyanpasuThemePickerOverlay \
     NyanpasuTelephonyOverlay \
-    NavigationBarNoHintOverlay
+    NavigationBarNoHintOverlay \
+    NavigationBarMode2ButtonOverlay
