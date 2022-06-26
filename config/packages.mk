@@ -123,4 +123,5 @@ PRODUCT_PACKAGES += \
     NyanpasuThemesStub \
     NyanpasuWallpaperStub \
     SimpleDeviceConfig \
+    Terminal \
     ThemePicker
