@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     SearchSelector \
     SetupWizard \
+    SettingsIntelligenceGooglePrebuilt \
     SoundPickerPrebuilt \
     talkback \
     TrichromeLibrary \
