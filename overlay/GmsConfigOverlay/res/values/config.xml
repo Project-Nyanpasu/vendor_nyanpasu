@@ -67,7 +67,7 @@
     <string name="config_defaultWellbeingPackage" translatable="false">com.google.android.apps.wellbeing</string>
 
     <!-- Colon separated list of package names that should be granted DND access -->
-    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.gms:com.google.android.apps.wellbeing:com.google.android.dialer</string>
+    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.GoogleCamera::com.google.android.settings.intelligence:com.google.android.gms:com.google.android.apps.wellbeing:com.google.android.dialer</string>
 
     <!-- The component to be the default supervisor profile owner [DO NOT TRANSLATE] -->
     <string name="config_defaultSupervisionProfileOwnerComponent" translatable="false">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
@@ -186,4 +186,8 @@
          This contains the GmsCore package name in GMS sample config as Google hosts a location
          time zone provider in GmsCore. The provider implementation is hosted in GmsCore. -->
     <string name="config_primaryLocationTimeZoneProviderPackageName" translatable="false">com.google.android.gms</string>
+
+    <!-- Google's Device Personalization Service package require -->
+    <string name="config_defaultAttentionService">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
+    <string name="config_defaultRotationResolverService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiRotationResolverService</string>
 </resources>
