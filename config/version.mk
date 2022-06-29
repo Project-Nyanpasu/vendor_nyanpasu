@@ -15,6 +15,8 @@ ifeq ($(NYANPASU_RELEASE), true)
 
   PRODUCT_COPY_FILES += \
     vendor/nyanpasu/prebuilt/etc/init/init.nyanpasu-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.nyanpasu-updater.rc
+
+  $(call inherit-product-if-exists, vendor/snow-key/key.mk)
 else
   NYANPASU_BUILD_VARIANT := experimental
 endif
