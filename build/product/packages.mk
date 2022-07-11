@@ -51,19 +51,15 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
-# Build GoogleCamera if Google Pixel 2+ model
-ifeq ($(filter walleye taimen blueline crosshatch bonito sargo coral flame sunfish bramble barbet redfin oriole raven,$(TARGET_DEVICE)),)
+ifneq ($(filter walleye taimen blueline crosshatch bonito sargo flame coral sunfish bramble redfin oriole raven, $(NYANPASU_BUILD)),)
+# Pixel Device Request (Pixel 2+)
 PRODUCT_PACKAGES += \
+    ElmyraService \
     GoogleCamera
 else
+# Build GcamGo for non Pixel
 PRODUCT_PACKAGES += \
     GoogleCameraGO
-endif
-
-# Elmyra
-ifeq ($(filter walleye taimen blueline crosshatch bonito sargo coral flame sunfish bramble barbet redfin oriole raven,$(TARGET_DEVICE)),)
-PRODUCT_PACKAGES += \
-    ElmyraService
 endif
 
 # Gapps

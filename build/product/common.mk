@@ -85,22 +85,22 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
 # Bootanimation
-$(call inherit-product, vendor/nyanpasu/config/bootanimation.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/bootanimation.mk)
 
 # Fonts
-$(call inherit-product, vendor/nyanpasu/config/fonts.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/fonts.mk)
 
 # Gapps
 $(call inherit-product, vendor/gapps/config.mk)
 
 # Packages
-$(call inherit-product, vendor/nyanpasu/config/packages.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/packages.mk)
 
 # Overlays
-$(call inherit-product, vendor/nyanpasu/config/overlays.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/overlays.mk)
 
 # Sound
-$(call inherit-product, vendor/nyanpasu/config/sounds.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/sounds.mk)
 
 # Version
-$(call inherit-product, vendor/nyanpasu/config/version.mk)
+$(call inherit-product, vendor/nyanpasu/build/product/version.mk)

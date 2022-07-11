@@ -6,11 +6,11 @@
 
 # Qcom-specific bits
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
-include vendor/nyanpasu/config/BoardConfigQcom.mk
+include vendor/nyanpasu/build/board/BoardConfigQcom.mk
 endif
 
 # Kernel
-include vendor/nyanpasu/config/BoardConfigKernel.mk
+include vendor/nyanpasu/build/board/BoardConfigKernel.mk
 
 # Soong
-include vendor/nyanpasu/config/BoardConfigSoong.mk
+include vendor/nyanpasu/build/board/BoardConfigSoong.mk

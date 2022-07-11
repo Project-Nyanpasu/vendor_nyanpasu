@@ -8,8 +8,8 @@
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.android.dataroaming=false
 
-# Inherit common Kaleidoscope stuff
-$(call inherit-product, vendor/nyanpasu/config/common.mk)
+# Inherit common Nyanpasu stuff
+$(call inherit-product, vendor/nyanpasu/build/product/common.mk)
 
 # Telephony packages
 PRODUCT_PACKAGES += \
