@@ -120,5 +120,6 @@ PRODUCT_PACKAGES += \
     NyanpasuThemesStub \
     NyanpasuWallpaperStub \
     SimpleDeviceConfig \
+    SnowyWidget \
     Terminal \
     ThemePicker
