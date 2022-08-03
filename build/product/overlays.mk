@@ -10,6 +10,13 @@ PRODUCT_PACKAGES += \
     TelecommConfigOverlay \
     PixelSetupWizardOverlay
 
+# Icon
+PRODUCT_PACKAGES += \
+    IconPackCircularAndroidOverlay \
+    IconPackCircularLauncherOverlay \
+    IconPackCircularSettingsOverlay \
+    IconPackCircularSystemUIOverlay
+
 # Overlay
 PRODUCT_PACKAGES += \
     NyanpasuFrameworksOverlay \
