@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LatinIME \
     Launcher3QuickStep \
-    SimpleDeviceConfig \
     ThemePicker
 
 # Filesystems tools
