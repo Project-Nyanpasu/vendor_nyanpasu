@@ -77,3 +77,31 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Enable support of one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+
+# Add acsa property for CarrierServices
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.acsa=true
+
+# Google Play services configuration
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.error.receiver.system.apps=com.google.android.gms \
+    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+
+# OPA configuration
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.opa.eligible_device=true
+
+# SetupWizard configuration
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.gmsversion=12_beta \
+    setupwizard.feature.baseline_setupwizard_enabled=true \
+    ro.setupwizard.enterprise_mode=1 \
+    ro.setupwizard.rotation_locked=true \
+    setupwizard.enable_assist_gesture_training=true \
+    setupwizard.theme=glif_v3_light \
+    setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
+    setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
+    setupwizard.feature.show_pixel_tos=false \
+    setupwizard.feature.show_support_link_in_deferred_setup=false \
+    setupwizard.feature.day_night_mode_enabled=true \
+    setupwizard.feature.portal_notification=true
