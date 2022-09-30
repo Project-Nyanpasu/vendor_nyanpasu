@@ -20,6 +20,9 @@ PRODUCT_COPY_FILES += \
 # Common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
 
+# Gapps
+$(call inherit-product, vendor/gapps/config.mk)
+
 # Key
 $(call inherit-product-if-exists, vendor/mashiro/keys.mk)
 
