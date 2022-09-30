@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
     vendor/nyanpasu/build/config/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 # Inherit
+# Bootanimation
+$(call inherit-product, vendor/nyanpasu/build/product/bootanimation.mk)
+
 # Common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
 
