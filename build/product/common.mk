@@ -32,5 +32,8 @@ $(call inherit-product, vendor/nyanpasu/build/product/properties.mk)
 # Snapdragon Clang
 $(call inherit-product, vendor/nyanpasu/sdclang/sdclang.mk)
 
+# Theme
+$(call inherit-product, vendor/mameko/theme.mk)
+
 # Version
 $(call inherit-product, vendor/nyanpasu/build/product/version.mk)
