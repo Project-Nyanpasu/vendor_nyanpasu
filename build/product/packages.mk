@@ -4,6 +4,51 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# APK Packages
+# Gapps
+PRODUCT_PACKAGES += \
+    com.google.android.dialer.support \
+    AndroidAutoStub \
+    AndroidPlatformServices \
+    CalculatorGoogle \
+    CalendarGoogle \
+    CarrierServices \
+    Chrome \
+    ConfigUpdater \
+    DeskClockGoogle \
+    DevicePersonalizationPrebuiltPixel2021 \
+    DeviceIntelligenceNetworkPrebuilt \
+    GCS \
+    GmsCore \
+    GoogleCalendarSyncAdapter \
+    GoogleContacts \
+    GoogleContactsSyncAdapter \
+    GoogleDialer \
+    GoogleExtShared \
+    GoogleFeedback \
+    GoogleLocationHistory \
+    GoogleOneTimeInitializer \
+    GooglePrintRecommendationService \
+    GooglePackageInstaller \
+    GooglePartnerSetup \
+    GoogleRestore \
+    GoogleServicesFramework \
+    GoogleTTS \
+    LatinImeGoogle \
+    Messages \
+    Phonesky \
+    Photos \
+    PixelSetupWizard \
+    SearchSelector \
+    SetupWizard \
+    SettingsIntelligenceGooglePrebuilt \
+    SoundPickerPrebuilt \
+    talkback \
+    TrichromeLibrary \
+    Velvet \
+    WebViewGoogle \
+    Wellbeing
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
