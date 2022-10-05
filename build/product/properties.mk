@@ -93,7 +93,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.gmsversion=12_beta \
+    ro.com.google.gmsversion=13_202208 \
     setupwizard.feature.baseline_setupwizard_enabled=true \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.rotation_locked=true \
