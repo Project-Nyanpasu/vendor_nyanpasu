@@ -15,4 +15,7 @@
     <string-array name="config_pluginWhitelist" translatable="false">
         <item>com.android.systemui.plugin.globalactions.wallet</item>
     </string-array>
+
+    <!-- Whether to show activity indicators in the status bar -->
+    <bool name="config_showActivity">false</bool>
 </resources>
