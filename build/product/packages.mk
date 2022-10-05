@@ -51,7 +51,17 @@ PRODUCT_PACKAGES += \
 
 # Require
 PRODUCT_PACKAGES += \
-    SimpleDeviceConfig
+    LatinIME \
+    Launcher3QuickStep \
+    SimpleDeviceConfig \
+    ThemePicker
+
+# Filesystems tools
+PRODUCT_PACKAGES += \
+    fsck.ntfs \
+    mke2fs \
+    mkfs.ntfs \
+    mount.ntfs
 
 # HIDL
 PRODUCT_PACKAGES += \
