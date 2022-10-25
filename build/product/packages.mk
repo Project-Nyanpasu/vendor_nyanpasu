@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
 
 # Require
 PRODUCT_PACKAGES += \
+    AudioFX \
     LatinIME \
     Launcher3QuickStep \
     SimpleDeviceConfig \
