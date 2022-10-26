@@ -126,6 +126,7 @@
     <string name="config_systemVisualIntelligence">com.google.android.as</string>
 
     <!-- Live Captions provided by Google's Device Personalization Service package  -->
+    <bool name="config_systemCaptionsServiceCallsEnabled">true</bool>
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
 
     <!--  Whether Multiuser UI should be shown -->
