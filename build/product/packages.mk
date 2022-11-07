@@ -16,7 +16,7 @@ PRODUCT_PACKAGES += \
     Chrome \
     ConfigUpdater \
     DeskClockGoogle \
-    DevicePersonalizationPrebuiltPixel2021 \
+    DevicePersonalizationPrebuiltPixel2022 \
     DeviceIntelligenceNetworkPrebuilt \
     GCS \
     GmsCore \
